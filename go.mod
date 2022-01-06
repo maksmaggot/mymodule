@@ -2,7 +2,10 @@ module github.com/maksmaggot/mymodule
 
 go 1.17
 
-require github.com/valyala/fasthttp v1.31.0
+require (
+	github.com/gorilla/websocket v1.4.2
+	github.com/valyala/fasthttp v1.31.0
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.2 // indirect
